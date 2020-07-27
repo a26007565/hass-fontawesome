@@ -37,4 +37,20 @@ module.exports = [
     },
     ...common,
   },
+  {
+    entry: './js/fal.js',
+    output: {
+      filename: 'custom_components/fontawesome/data/fal.js',
+      path: path.resolve(__dirname)
+    },
+    ...common,
+  },
+  {
+    entry: './js/fad.js',
+    output: {
+      filename: 'custom_components/fontawesome/data/fad.js',
+      path: path.resolve(__dirname)
+    },
+    ...common,
+  },
 ];
